@@ -71,32 +71,4 @@ def LDA(data_train, label_train):
 
     return data_reduced, len(dis_vector)
 
-    # # Plot train data
-    # g1_x = []; g2_x = []; g3_x = []
-    # g1_y = []; g2_y = []; g3_y = []
-    # for j in range(g1.shape[1]):
-    #     x = g1[:, j]
-    #     g1_x.append(inner(dis_vector[0], x.transpose()))
-    #     g1_y.append(inner(dis_vector[1], x.transpose()))
-    #
-    # for j in range(g2.shape[1]):
-    #     x = g2[:, j]
-    #     g2_x.append(inner(dis_vector[0], x.transpose()))
-    #     g2_y.append(inner(dis_vector[1], x.transpose()))
-    #
-    # for j in range(g3.shape[1]):
-    #     x = g3[:, j]
-    #     g3_x.append(inner(dis_vector[0], x.transpose()))
-    #     g3_y.append(inner(dis_vector[1], x.transpose()))
-    #
-    # plt.scatter(g1_x, g1_y, color='blue', s=20, label='$group 1$')
-    # plt.scatter(g2_x, g2_y, color='red', s=20, label='$group 2$')
-    # plt.scatter(g3_x, g3_y, color='green', s=20, label='$group 3$')
-    # plt.xlabel('dis_vector_1')
-    # plt.ylabel('dis_vector_2')
-    # plt.legend()
-    # plt.show()
-
-
-
-
+ 
